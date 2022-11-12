@@ -1,0 +1,45 @@
+.posts-list {
+  position: relative;
+  margin: 50px 30px 0 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-container {
+}
+
+.card {
+  background-color: rgb(230, 235, 229);
+
+  width: 180px;
+  height: 200px;
+  padding: 10px 30px 10px 30px;
+  margin: 0 30px 30px 0;
+
+  border-radius: 10px;
+}
+
+.card-title {
+  color: rgb(43, 66, 16);
+  font-size: 16px;
+  font-weight: bold;
+  height: 20px;
+}
+
+.card-date {
+  color: rgba(79, 112, 43, 0.866);
+  font-size: 12px;
+}
+.card-content {
+  color: rgba(41, 69, 14, 0.866);
+  height: 70px;
+  font-size: 13px;
+}
+
+.card-edit-link,
+.card-delete-link {
+  color: rgb(25, 38, 0);
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 13px;
+}

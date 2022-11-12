@@ -1,0 +1,54 @@
+.top-container {
+  width: 40%;
+  display: flex;
+}
+
+.row {
+}
+
+.column {
+  margin: 50px 30px 30px 70px;
+}
+
+.header {
+}
+
+.add-post-form {
+}
+
+.form-group {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 16px;
+  display: block;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(180, 180, 180);
+  width: 450px;
+}
+
+input {
+  font-size: 17px;
+  height: 25px;
+  font-weight: bold;
+}
+
+textarea {
+  font-size: 15px;
+  height: 120px;
+  resize: none;
+}
+
+.btn-submit {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(180, 180, 180);
+}
